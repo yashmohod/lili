@@ -6,7 +6,7 @@ function Buttons(props) {
     const navigate = useNavigate();
     return (
         <div>
-            <Button onClick={() => navigate("/")} className='backButton'>Back</Button>
+            <Button onClick={() => navigate("/lili/")} className='backButton'>Back</Button>
             {(props.status === 0) ?
                 <Button className="stopwatch-btn stopwatch-btn-gre"
                     onClick={props.start}>Start</Button> : ""

@@ -22,8 +22,8 @@ function App() {
 
         <Routes>
           <Route path="/lili/" element={<Clock />} />
-          <Route path="/lili//stopwatch" element={<Stopwatch />} />
-          <Route path="/lili//timer" element={<Timer />} />
+          <Route path="/lili/stopwatch" element={<Stopwatch />} />
+          <Route path="/lili/timer" element={<Timer />} />
         </Routes>
 
 

@@ -108,7 +108,7 @@ const Timer = () => {
     return (
         <>
             <ToastContainer />
-            <Button onClick={() => navigate("/")} className='backButton'>Back</Button>
+            <Button onClick={() => navigate("/lili/")} className='backButton'>Back</Button>
             {/* input */}
             {status == 0 ?
                 <Buttons setTime={setTime} time={time} start={start} />

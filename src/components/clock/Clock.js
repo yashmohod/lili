@@ -21,10 +21,10 @@ const Clock = () => {
                 <h1>{currentTime}</h1>
                 <Row>
                     <Col>
-                        <Button onClick={() => navigate("/stopwatch")}> Stopwatch </Button>
+                        <Button onClick={() => navigate("/lili/stopwatch")}> Stopwatch </Button>
                     </Col>
                     <Col>
-                        <Button onClick={() => navigate("/timer")}> Timer </Button>
+                        <Button onClick={() => navigate("/lili/timer")}> Timer </Button>
                     </Col>
                 </Row>
             </div>
